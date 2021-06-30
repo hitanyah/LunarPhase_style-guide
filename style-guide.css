@@ -33,11 +33,11 @@ a:hover {
 /* ----- page set ----- */
 .row {
   text-align: center;
-  padding: 60px 140px;
+  margin: 60px 140px;
 }
 @media (max-width: 576px) {
   .row {
-    padding: 60px 20px;
+    margin: 60px 20px;
   }
 }
 
@@ -57,7 +57,6 @@ a:hover {
   background-color: #f7f7ee;
   text-align: center;
   box-shadow: 0px -5px 10px 0px #3838449a;
-  /* overflow: hidden; */
   padding: 20px 140px;
   margin: 0;
 }
@@ -68,6 +67,7 @@ a:hover {
 }
 .nav-logo {
   height: 36px;
+  margin-top: -16px;
 }
 .nav-logo:hover {
   opacity: 0.6;
@@ -102,7 +102,7 @@ a:hover {
   transition: 0.2s;
 }
 
-.nav-shop {
+/* .nav-product {
   display: none;
   position: absolute;
   top: 120px;
@@ -111,15 +111,15 @@ a:hover {
   height: 60px;
   background-color: #f7f7eecc;
 }
-.nav-shop a {
+.nav-product a {
   font-size: 16px;
 }
-.nav-shop-box {
+.nav-product-box {
   margin: 20px 140px;
 }
-.nav-shop-show {
+.nav-product-show {
   display: block;
-}
+} */
 
 /* ----- breadcrumb search-bar  -----*/
 .top-line {
@@ -175,6 +175,11 @@ p {
   background-color: #383844;
   color: #f7f7ee;
   transition: 0.2s;
+}
+
+/* ----- title ----- */
+.style-container {
+  margin-top: 0px;
 }
 
 /* ----- logo ----- */
@@ -289,12 +294,10 @@ span {
 /* ----- button ----- */
 .bg-green {
   width: 100%;
-  /* height: 150px; */
   background-color: #f7f7ee;
 }
 .bg-pink {
   width: 100%;
-  /* height: 150px; */
   background-color: #fdd2bb;
 }
 
@@ -505,8 +508,6 @@ span {
     background-position: 50% 0%;
   }
 }
-/* .gradient-point {
-} */
 
 /* ----- card ----- */
 .card1 {
